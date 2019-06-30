@@ -1,0 +1,26 @@
+body {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("Image/Gitarre_BW_small.JPG");
+}
+
+
+@media (min-width: 720px){
+body {
+    background-image: url("Image/Gitarre_BW_large.JPG");
+}
+}
+
+@media (min-width: 1000px) {
+    body {
+      background-image: url("Image/Gitarre_BW_tablett.JPG");
+    }
+}
+
+@media (min-width: 3000x){
+    body {
+        background-image: url("Image/Gitarre_BW_original.JPG");
+    }
+    }
+    
